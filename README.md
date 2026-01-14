@@ -2,6 +2,16 @@
 
 **Slime Valley** is an immersive VR sandbox experience set in a fantasy café. The project focuses on physics interactions and spatial audio to create a relaxing "whimsical wonderland" where users can escape reality and play with adorable slimes.
 
+## 📥 Download & Install
+
+**[Download the .apk file here (GitHub Releases)](https://github.com/HouIP/SlimeValley/releases/tag/release)**
+
+### How to Install (Quest 2/3)
+1.  **Prerequisites:** Enable Developer Mode on your headset and install [SideQuest](https://sidequestvr.com/setup-howto) on your PC.
+2.  **Connect:** Plug your headset into the PC via USB. Inside the headset, select **"Allow USB Debugging"**.
+3.  **Install:** Open SideQuest on your PC and drag the downloaded `.apk` file into the window.
+4.  **Play:** In your headset, go to **App Library > Search/Filter > Unknown Sources** to launch the game.
+
 ## 🎮 Key Features & Interactions
 
 * **Dynamic Slime Interaction:** Pick up slimes using ray or direct interaction. You can feed them hotdogs (eating sounds) or bananas (toggle slimes gravity).
