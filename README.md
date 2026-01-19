@@ -1,16 +1,14 @@
-# Slime Valley
+# ☕ Slime Valley
 
-**Slime Valley** is an immersive VR sandbox experience set in a fantasy café. The project focuses on physics interactions and spatial audio to create a relaxing "whimsical wonderland" where users can escape reality and play with adorable slimes.
+**Slime Valley** is an immersive VR sandbox experience set in a fantasy café. The project focuses on physics interactions and spatial audio to create a relaxing retreat from reality where users can play with adorable slimes.
+
+![Slime Valley Teaser](docs/images/teaser.png)
+
 
 ## 📥 Download & Install
 
-**[Download the .apk file here (GitHub Releases)](https://github.com/HouIP/SlimeValley/releases/tag/release)**
+**[Download the .apk file (GitHub Releases)](https://github.com/HouIP/SlimeValley/releases/tag/release)** and follow the instructions to install on your VR device.
 
-### How to Install (Quest 2/3)
-1.  **Prerequisites:** Enable Developer Mode on your headset and install [SideQuest](https://sidequestvr.com/setup-howto) on your PC.
-2.  **Connect:** Plug your headset into the PC via USB. Inside the headset, select **"Allow USB Debugging"**.
-3.  **Install:** Open SideQuest on your PC and drag the downloaded `.apk` file into the window.
-4.  **Play:** In your headset, go to **App Library > Search/Filter > Unknown Sources** to launch the game.
 
 ## 🎮 Key Features & Interactions
 
@@ -28,6 +26,27 @@
 * **Models & Environment:** Kawaii Slimes, CoffeeShop Starter Pack, Menu Chalk Board, TV Arm Mount, Picture Frames, Dining Set, Simple Sky.
 * **Materials & VFX:** Stylized Wood Textures, Sherbb's Particle Collection.
 * **Music:** *On My Way* & *Morning Routine* (Ghostrifter Official), *When I Was A Boy* (Tokyo Music Walker).
+
+
+## 🚀 Running the Project
+
+### Development Setup (Unity Editor)
+
+**Prerequisites:**
+- Unity 2021.3.10f1 (or compatible LTS version)
+- XR Interaction Toolkit package (should be included via Package Manager)
+- VR headset connected (Tested on Quest 2/3) for testing
+
+**Steps:**
+1. **Open Project:** Launch Unity Hub and open the `SlimeValley` project folder.
+2. **Open Scene:** Navigate to `Assets/Scenes/cafeScene.unity` and open it.
+3. **XR Setup:** Ensure your VR headset is connected and recognized by Unity.
+4. **Play Mode:** Press the Play button in the Unity Editor to enter Play Mode.
+   - The scene will render in your connected VR headset if properly configured.
+   - Use the Game view in the Editor for debugging (though VR interactions require the headset).
+
+**Note:** For full VR testing, build and deploy to your Quest device (see Install section below).
+
 
 ## 🎓 Acknowledgment
 
